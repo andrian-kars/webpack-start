@@ -2,7 +2,7 @@
   "name": "webpack-start",
   "version": "1.0.0",
   "description": "webpack ready to go",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
@@ -22,5 +22,9 @@
     "style-loader": "^2.0.0",
     "webpack": "^5.35.0",
     "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1"
   }
 }
